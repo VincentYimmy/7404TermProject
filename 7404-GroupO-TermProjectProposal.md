@@ -9,7 +9,7 @@
 
 ###Team Member
 
-| Name        | Student ID |  
+| Name       | Student ID |  
 | --------   | :-----| 
 | Zhu Hua(Team Leader)          | 3035419987 |
 | Zhang Longtao    |  3035419523          | 
