@@ -44,7 +44,7 @@ python, tenorflow
 ###Github Link
 
 The project will be updated using the github page:
->  [COMP7404GroupO](https://github.com/COMP7404GroupO/TermProject).
+>  [COMP7404GroupO](https://github.com/COMP7404GroupO/7404TermProject).
 
 ###Dataset to be used in the project
 
