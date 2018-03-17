@@ -48,7 +48,7 @@ The project will be updated using the github page:
 
 ###Dataset to be used in the project
 
-The data is provided by a competition commmitee:
+The data is provided by a competition committee:
 >http://ccdm2018.sdufe.edu.cn/sjwjjs.htm
 
 
