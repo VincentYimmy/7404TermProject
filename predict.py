@@ -103,12 +103,14 @@ def predict():
 					while 0 in predictlist:
 						predictlist.remove(0)
 					c = (Counter(predictlist).most_common(1))
+					#the class
 					maxlabel = c[0][0]
 					results = []
 					
 					for i in range(len(predictfeatures)):
 						if prediction[i] == maxlabel:
 							results.append(verts[i])
+					#the average of the box
 					totalx = 0
 					totaly = 0
 					totalw = 0
@@ -122,6 +124,7 @@ def predict():
 					y = totaly / len(results)
 					w = totalw / len(results)
 					h = totalh / len(results)
+					#show the image
 					img = skimage.io.imread(img_path+'/'+test_file)
 					fig, ax = plt.subplots(ncols=1, nrows=1, figsize=(6, 6)) 
 					ax.imshow(img)
